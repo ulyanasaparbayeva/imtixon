@@ -1,0 +1,449 @@
+
+@import url('https://fonts.cdnfonts.com/css/sf-pro-text');
+
+
+
+
+body {
+    font-family: 'SF Pro Text', sans-serif;
+    background-color: #1818180D;
+}
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 20px 0px;
+}
+
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header li {
+ list-style: none;
+    color:  #161C24;
+    font-family: SF Pro Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.header_group {
+  display: flex;
+  gap: 32px;
+}
+
+.header_cart {
+    display: flex;
+    gap: 30px;
+}
+
+.border {
+    background: #FFF;
+    box-shadow: 0px -1px 0px 0px #C4CDD5 inset;
+}
+
+
+
+.home_primary_span {
+    color: #141414;
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.home_primary_secondary {
+    color: #9D9D9D;
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.home_id {
+    color: #161C24;
+    font-family: SF Pro Text;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.home_title {
+    padding-top: 40px;
+    color: #000;
+    font-family: SF Pro Text;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 20px;
+}
+
+.product-cards {
+    cursor: pointer;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.03);
+    box-shadow: -1px 0px 0px 0px #EAEAEA inset, 1px 0px 0px 0px #EAEAEA inset, 0px -1px 0px 0px #EAEAEA inset;
+   }
+
+.product-cards:hover {
+    text-decoration: none;
+}
+
+
+
+.home_img  {
+    width: 288px;
+    height: 320px;
+}
+
+.home_product_group {
+    padding:10px 12px;
+}
+
+
+.home_product_title {
+    color:  #454F5B;
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.home_product_description {
+    max-height: 3em; /* Limit the maximum height to show a few lines */
+    overflow: hidden; /* Hide any overflow beyond the specified height */
+    text-overflow: ellipsis;
+    width: 264px;
+    color:#454F5B;
+    font-family: SF Pro Text;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.home_product_price {
+    padding-top: 10px;
+    color:  #161C24;
+    font-family: SF Pro Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+.details_group {
+    display: flex;
+    gap: 60px;
+}
+
+#product-details {
+    margin-top: 150px;
+    margin-bottom: 170px;
+}
+
+.details_img {
+    width: 600px;
+    height: 600px;
+}
+
+.details_all {
+    padding-top: 30px;
+}
+
+
+.details_title {
+    color:  #161C24;
+    font-family: SF Pro Text;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+
+.details_description {
+    max-width: 287px;
+  padding-top: 20px;
+    color:  #454F5B;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /
+}
+
+.details_price_title {
+ padding-top: 32px;
+    color: #454F5B;
+    font-family: SF Pro Text;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+
+.details_price_group {
+    display: flex;
+    gap: 12px;
+}
+
+.details_price {
+    color: #161C24;
+    font-family: SF Pro Text;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.details_discount {
+    color: #A4A4A4;
+    font-family: SF Pro Text;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
+.details_button {
+    outline: none;
+    margin-top:17px;
+    background-color: #4295E4;
+    border: none;
+    width: 220px;
+    height: 50px;
+    color: #FFF;
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.details_button:hover {
+    outline: none;
+}
+
+.cart_all {
+ background-color: #FFF;
+ margin: 0px auto;
+ max-width: 836px;
+}
+
+#cart-product-details {
+ margin-top: 43px;
+ margin-bottom: 337px;
+}
+
+.cart_header {
+  padding: 0px 40px;
+ display: flex;
+ justify-content: space-between;
+}
+
+.cart_header h2 {
+    padding-top: 16px;
+    color: #161C24;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+.cart_header i {
+    padding-top: 16px;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.cart_img {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.03) 100%), url(<path-to-image>), lightgray 11.866px -1.228px / 80.882% 91.667% no-repeat;
+    mix-blend-mode: darken;
+    width: 136px;
+    height: 120px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.cart_title {
+    color: #161C24;
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.cart_link {
+    color: #161C24;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cart_link  a {
+    text-decoration: revert;
+}
+
+.cart_counter {
+  padding-top: 34px;
+   gap: 8px;
+  display: flex;
+  cursor: pointer;
+}
+
+
+
+.cart_number {
+    width: 60px;
+    height: 32px;
+    border: 1px solid #EAEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart_remove {
+    cursor: pointer;
+}
+
+.cart_remove i {
+    width: 24px;
+    height: 24px;
+    color: #4295E4;
+}
+
+.cart_remove span {
+    color:  #4295E4;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.cart__price {
+ padding-top: 68px;
+    color: #161C24;
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: end;
+}
+
+
+.cart_price {
+ display: flex;
+ gap: 12px;
+ padding: 24px 40px;
+ justify-content: space-between;
+}
+
+
+.cart_total {
+    padding-top: 32px;
+    margin-left: 40px;
+    color:  #161C24;
+    font-family: SF Pro Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.cart_total span {
+    color: #000;
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.cart_info {
+    display: flex;
+    gap:12px;
+}
+
+.cart_btns {
+padding-top: 8px;
+ padding-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_remove {
+    margin-left: 40px;
+    padding: 9px 64px;
+    background-color: #4295E4;
+    border: none;
+    outline: none;
+    color:  #FFF;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+.btn_remove:hover {
+  outline: none;
+}
+
+
+.btn_continue {
+    margin-right: 40px;
+    padding: 10px 24px;
+    background-color: white;
+    border: 1px solid #ADD7FF;
+    color: #161C24;
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn_continue:hover {
+    outline: none;
+}
